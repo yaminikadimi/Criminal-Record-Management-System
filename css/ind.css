@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+}
+body{
+    background-image: url('../Images/bg.jpeg');
+    background-size: 1400px 1400px;
+}
+
+.menu{
+height:60px;
+width:100%;
+background-color: #0a3032;
+display: flex;
+align-items:center;
+color: rgb(252, 182, 6);
+justify-content: space-between;
+}
+.menu p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+.contact{
+    margin-right: 100px;
+    padding: 3px 20px;
+    text-decoration: none;
+    color:black;
+    border:2px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.747);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.content{
+    justify-content: space-evenly;
+    display: flex;
+}
+.intro{
+    margin: 50px;
+    height:500px;
+    width: 500px;
+    background-color: black;
+}
+.login{
+    margin: 120px 100px;
+    width:500px;
+    height:300px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.user, .admin{
+    margin: 60px 100px ;
+    height:50px;
+    width:300px;
+    background-color: rgb(50, 225, 50);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.login a{
+    font-weight: 600;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>ads</servlet-name>
+        <servlet-class>servjava.adminservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ads</servlet-name>
+        <url-pattern>/admserv</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addc</servlet-name>
+        <servlet-class>servjava.Addcriminal</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addc</servlet-name>
+        <url-pattern>/addcrim</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>vrec</servlet-name>
+        <servlet-class>servjava.Viewrecords</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vrec</servlet-name>
+        <url-pattern>/viewrec</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>admodify</servlet-name>
+        <servlet-class>servjava.Admmodify</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admodify</servlet-name>
+        <url-pattern>/admmodify</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>delrec1</servlet-name>
+        <servlet-class>servjava.Delrec1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delrec1</servlet-name>
+        <url-pattern>/delrec1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>delrec2</servlet-name>
+        <servlet-class>servjava.Delrec2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delrec2</servlet-name>
+        <url-pattern>/delrec2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>updstatus</servlet-name>
+        <servlet-class>servjava.status</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updstatus</servlet-name>
+        <url-pattern>/updstat</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>uslist</servlet-name>
+        <servlet-class>servjava.userlist</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uslist</servlet-name>
+        <url-pattern>/userlist</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>userserv</servlet-name>
+        <servlet-class>servjava.Userservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userserv</servlet-name>
+        <url-pattern>/userserv</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>usercheck</servlet-name>
+        <servlet-class>servjava.usercheck</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>usercheck</servlet-name>
+        <url-pattern>/usercheck</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>reguser</servlet-name>
+        <servlet-class>servjava.reguser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reguser</servlet-name>
+        <url-pattern>/reguser</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>useraddcrimdet</servlet-name>
+        <servlet-class>servjava.usercrimdet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>useraddcrimdet</servlet-name>
+        <url-pattern>/useraddcrim</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>usermod</servlet-name>
+        <servlet-class>servjava.Usermodify</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>usermod</servlet-name>
+        <url-pattern>/usermod</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>checkstatus</servlet-name>
+        <servlet-class>servjava.checkstatus</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkstatus</servlet-name>
+        <url-pattern>/checkstatus</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>userview</servlet-name>
+        <servlet-class>servjava.userview</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userview</servlet-name>
+        <url-pattern>/userview</url-pattern>
+    </servlet-mapping>
+</web-app>
