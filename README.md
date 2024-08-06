@@ -1,0 +1,1 @@
+Designed a Criminal record Management System using Java programming language and basic web development for frontend. Java servlets are used to process the backend logic , MySQL is used to store and manage the data, HTML and CSS are used for the frontend.
